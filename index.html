@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gumowy Adapter Montażowy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <header class="bg-white shadow p-4">
+    <h1 class="text-2xl font-bold text-center">Gumowy Adapter Montażowy</h1>
+  </header>
+
+  <main class="p-4 max-w-3xl mx-auto">
+    <section class="mb-6">
+      <img src="20250617_000506.jpg" alt="Gumowy Adapter" class="w-full rounded shadow" />
+      <p class="mt-4">
+        Wysokiej jakości gumowy adapter montażowy – idealny do zastosowań technicznych.
+        Dostępne różne rozmiary.
+      </p>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold mb-2">Rozmiary i ceny</h2>
+      <img src="Снимок.JPG" alt="Tabela rozmiarów i cen" class="w-full rounded shadow">
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold mb-2">Zamów teraz</h2>
+      <form action="https://formspree.io/f/mwpbwqpn" method="POST" class="space-y-4 bg-white p-4 rounded shadow">
+        <label class="block">
+          Imię i nazwisko:
+          <input type="text" name="name" required class="w-full p-2 border rounded" />
+        </label>
+        <label class="block">
+          Email:
+          <input type="email" name="email" required class="w-full p-2 border rounded" />
+        </label>
+        <label class="block">
+          Rozmiar:
+          <select name="rozmiar" required class="w-full p-2 border rounded">
+            <option value="">Wybierz rozmiar</option>
+            <option value="M10">M10</option>
+            <option value="M12">M12</option>
+            <option value="M14">M14</option>
+            <option value="M16">M16</option>
+            <option value="M18">M18</option>
+          </select>
+        </label>
+        <label class="block">
+          Ilość:
+          <input type="number" name="ilosc" min="1" required class="w-full p-2 border rounded" />
+        </label>
+        <label class="block">
+          <input type="checkbox" required /> Akceptuję <a href="#regulamin" class="text-blue-600 underline">regulamin</a>
+        </label>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+          Wyślij zamówienie
+        </button>
+      </form>
+    </section>
+
+    <section id="regulamin" class="mt-10 text-sm text-gray-600">
+      <h2 class="text-lg font-bold mb-2">Regulamin i Polityka Prywatności</h2>
+      <p>Firma: SIARHEI PAZNIAK CONSULTING</p>
+      <p>NIP: 7811855905 | REGON: 529905480 | EORI: PL781185590500000</p>
+      <p>Adres: ul. Tramwajowa 3-6, Warszawa, 05-077</p>
+      <p>Email: Rombeldin@gmail.com</p>
+      <p>Polityka prywatności: dane osobowe są przetwarzane zgodnie z RODO. Zamówienie oznacza zgodę na przetwarzanie danych w celach realizacji zamówienia.</p>
+    </section>
+  </main>
+
+  <footer class="bg-white shadow p-4 mt-10 text-center text-sm text-gray-500">
+    &copy; 2025 Gumowy Adapter – Wszystkie prawa zastrzeżone.
+  </footer>
+</body>
+</html>
